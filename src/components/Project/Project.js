@@ -2,24 +2,12 @@ import preact from 'preact';
 import styled from 'styled-components';
 
 const Project = ({title, link, href, children}) => (
-  <StyledProject>
+  <div>
     <Title>{title}</Title>
     <Link href={href}>{link}</Link>
     <Text>{children}</Text>
-  </StyledProject>
+  </div>
 );
-
-const StyledProject = styled.div`
-  margin-bottom: 2rem;
-
-  &:last-child {
-    margin-bottom: 0;
-  }
-
-  @media (min-width: 960px), print {
-    margin-bottom: 0;
-  }
-`;
 
 const Title = styled.h3`
   font-family: 'Nunito', sans-serif;

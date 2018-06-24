@@ -10,7 +10,14 @@ export const Grid = styled.div`
 `;
 
 export const GridItem = styled.div`
+  margin-bottom: 2rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
   @media (min-width: 960px), print {
+    margin-bottom: 0;
     width: calc(33.333% - (1rem * 0.666));
   }
 `;
