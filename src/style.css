@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Nunito:400,600');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #333;
+  font-family: 'Lora', serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+a {
+  color: #eb5757;
+  text-decoration: underline;
+}
+
+.paper {
+  background: white;
+  padding: 2rem 1.5rem;
+}
+
+@media print {
+  #resume {
+    padding: 0;
+  }
+
+  .paper {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #resume {
+    background: #fafafa;
+    padding: 3rem 0;
+  }
+
+  .paper {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    padding: 3rem 2.5rem;
+    width: 750px;
+  }
+}
