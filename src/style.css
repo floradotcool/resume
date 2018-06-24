@@ -38,12 +38,15 @@ a {
 @media screen and (min-width: 960px) {
   #resume {
     background: #fafafa;
+    display: flex;
+    height: 100vh;
     padding: 3rem 0;
+    overflow-y: scroll;
   }
 
   .paper {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3), 0 10px 10px rgba(0, 0, 0, 0.2);
-    margin: 0 auto;
+    margin: 0 auto auto;
     padding: 3rem 2.5rem;
     width: 750px;
   }
