@@ -29,10 +29,14 @@ const Projects = () => (
         </Project>
       </GridItem>
       <GridItem>
-        <Project title="Pouch" link="pouch.party" href="http://pouch.party">
-          A meant-for-fun web application that allows you to view your bank
-          account balance in terms of gold, silver, and copper — inspired by
-          World of Warcraft. A work in progress.
+        <Project
+          title="My Blog"
+          link="blog.nick.exposed"
+          href="http://blog.nick.exposed">
+          A blog about my thoughts, experiences, and opinions. I try to write a
+          post every Sunday. I will talk about topics like minimalism,
+          meditation, budgeting, veganism, and occasionally software
+          development.
         </Project>
       </GridItem>
     </Grid>

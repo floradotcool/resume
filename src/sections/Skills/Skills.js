@@ -9,23 +9,23 @@ const Skills = () => (
     <Grid>
       <GridItem>
         <SkillsList>
-          <Skill>Node / JS</Skill>
+          <Skill>React / Redux</Skill>
           <Skill>Scala / Play</Skill>
-          <Skill>React</Skill>
+          <Skill>Node / JS</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
-          <Skill>Ruby / Rails</Skill>
-          <Skill>SQL / NoSQL</Skill>
-          <Skill>Responsive Web Design</Skill>
+          <Skill>Pair Programming</Skill>
+          <Skill>Test-Driven Development</Skill>
+          <Skill>Retrospective Facilitation</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
-          <Skill>Respect</Skill>
-          <Skill>Kindess</Skill>
-          <Skill>Empathy</Skill>
+          <Skill>Compassion</Skill>
+          <Skill>Active Listening</Skill>
+          <Skill>Inclusion</Skill>
         </SkillsList>
       </GridItem>
     </Grid>

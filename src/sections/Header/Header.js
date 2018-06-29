@@ -5,9 +5,9 @@ const Header = () => (
   <StyledHeader>
     <Title>Nick Pierson</Title>
     <Contacts>
-      <Contact>nick@nickpierson.name</Contact>
+      <Contact>me@nick.exposed</Contact>
       <Contact>
-        <a href="https://nickpierson.name">nickpierson.name</a>
+        <a href="https://nick.exposed">nick.exposed</a>
       </Contact>
     </Contacts>
   </StyledHeader>

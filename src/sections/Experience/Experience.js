@@ -6,8 +6,21 @@ import Job from '../../components/Job';
 const Experience = () => (
   <Section title="Experience">
     <Job
+      title="Full-Stack Software Engineer"
+      company="Leapfin"
+      time="Feb 2018 to Present">
+      <li>Self-managed my time and priorities while working at a startup.</li>
+      <li>
+        Launched the effort to support full-time remote employees on the Engineering
+        team.
+      </li>
+      <li>
+        Introduced Agile XP practices such as pairing, retrospectives, and TDD.
+      </li>
+    </Job>
+    <Job
       title="Full-Stack Web Developer"
-      company="Self Employed"
+      company="Self-Employed"
       time="Mar 2017 to Dec 2017">
       <li>Scaled a personal web application to 20,000 daily users.</li>
       <li>
@@ -38,16 +51,6 @@ const Experience = () => (
       <li>
         Replaced an expensive, technical process with a database-driven,
         user-friendly web application using Java, Spring, and jQuery.
-      </li>
-      <li>Automated an email alert system stylized using Ink.</li>
-    </Job>
-    <Job
-      title="Software Engineer, Intern"
-      company="Asynchrony Labs"
-      time="May 2013 to Aug 2013">
-      <li>
-        Delivered a Q&amp;A submission and voting platform for Android in an
-        Agile, pair-programming, and test-driven environment.
       </li>
     </Job>
   </Section>
