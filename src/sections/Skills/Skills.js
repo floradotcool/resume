@@ -16,9 +16,9 @@ const Skills = () => (
       </GridItem>
       <GridItem>
         <SkillsList>
-          <Skill>Pair / Mob Programming</Skill>
-          <Skill>Test-Driven Development</Skill>
-          <Skill>Retrospective Facilitation</Skill>
+          <Skill>Asynchronous Collaboration</Skill>
+          <Skill>Proactive Problem Solving</Skill>
+          <Skill>Time Management</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
