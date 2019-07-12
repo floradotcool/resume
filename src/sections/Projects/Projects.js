@@ -20,12 +20,12 @@ const Projects = () => (
       </GridItem>
       <GridItem>
         <Project
-          title="KC Photography"
-          link="kaitlynclink.com"
-          href="http://kaitlynclink.com">
-          A website that I built for my cousin to showcase her photography work
-          and attract clients while she grows her photography business.
-          Designed, developed, and hosted by me using plain old html and css.
+          title="scape.fashion"
+          link="scape.fashion"
+          href="https://scape.fashion">
+          A website that I built for the Old School Runescape community. It
+          scans in-game equipment for their color palette, and matches items
+          together or allows users to search based on a given hex color.
         </Project>
       </GridItem>
       <GridItem>
