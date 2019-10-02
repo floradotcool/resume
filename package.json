@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
     "build": "preact build",
-    "serve": "preact build && preact serve",
+    "deploy": "./scripts/docker.sh deploy",
     "dev": "preact watch",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "postversion": "./scripts/postversion.sh",
+    "serve": "preact build && preact serve",
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev"
   },
   "eslintConfig": {
     "extends": "eslint-config-synacor"
