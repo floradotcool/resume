@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "resume",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "build": "preact build",
@@ -26,8 +26,8 @@
   "dependencies": {
     "global": "^4.3.2",
     "preact": "^8.2.1",
-    "preact-compat": "^3.17.0",
     "preact-cli": "^2.0.0",
+    "preact-compat": "^3.17.0",
     "prettier": "^1.13.5",
     "styled-components": "^3.3.3"
   }
