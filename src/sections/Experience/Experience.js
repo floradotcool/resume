@@ -8,7 +8,7 @@ const Experience = () => (
     <Job
       title="Software Engineer"
       company="Redbubble"
-      time="Sep 2018 to Present">
+      time="Sep 2018 to July 2019">
       <li>Maintained the sole ads distribution engine for the company.</li>
       <li>Added automated ticket handling in Zendesk for certain consumer tickets.</li>
       <li>

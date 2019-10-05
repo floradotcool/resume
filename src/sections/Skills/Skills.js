@@ -11,20 +11,20 @@ const Skills = () => (
         <SkillsList>
           <Skill>React / Redux</Skill>
           <Skill>Node / JS</Skill>
-          <Skill>Ruby / Rspec</Skill>
+          <Skill>Docker / K8s</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
+          <Skill>Continuous Deployment</Skill>
           <Skill>Asynchronous Collaboration</Skill>
-          <Skill>Proactive Problem Solving</Skill>
-          <Skill>Time Management</Skill>
+          <Skill>Test-Driven Development</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
           <Skill>Compassion</Skill>
-          <Skill>Active Listening</Skill>
+          <Skill>Listening</Skill>
           <Skill>Inclusion</Skill>
         </SkillsList>
       </GridItem>
