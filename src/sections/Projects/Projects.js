@@ -9,23 +9,23 @@ const Projects = () => (
     <Grid>
       <GridItem>
         <Project
+          title="Hearling"
+          link="hearling.com"
+          href="https://hearling.com">
+          A subscription service built on a freemium model meant to help
+          language-learners and media creators have easier access to
+          high-quality text-to-speech technology. Hearling is the paid successor
+          to soundoftext.com.
+        </Project>
+      </GridItem>
+      <GridItem>
+        <Project
           title="Sound of Text"
           link="soundoftext.com"
           href="https://soundoftext.com">
           A modern, responsive web application which lets users download TTS MP3
           files for many different languages. Used by language learners around
-          the world — attracting 20,000 visitors per day. Uses the Google
-          Translate API.
-        </Project>
-      </GridItem>
-      <GridItem>
-        <Project
-          title="scape.fashion"
-          link="scape.fashion"
-          href="https://scape.fashion">
-          A website that I built for the Old School Runescape community. It
-          scans in-game equipment for their color palette, and matches items
-          together or allows users to search based on a given hex color.
+          the world, attracting 20,000 visitors per day.
         </Project>
       </GridItem>
       <GridItem>

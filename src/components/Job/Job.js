@@ -5,10 +5,10 @@ const Job = ({company, title, time, children}) => {
   return (
     <StyledJob>
       <Title>{title}</Title>
-      <Meta>
-        {company && <Company>{company}</Company>}
+      <div>
+        <Company>{company}</Company>
         <Time>{time}</Time>
-      </Meta>
+      </div>
       {children.length > 0 && <Points>{children}</Points>}
     </StyledJob>
   );
@@ -39,10 +39,6 @@ const Title = styled.h3`
   }
 `;
 
-const Meta = styled.div`
-  font-style: italic;
-`;
-
 const Company = styled.div`
   margin-bottom: 0.5rem;
 
@@ -58,16 +54,18 @@ const Time = styled.div`
     font-size: 0.875rem;
     line-height: 1.5rem;
     position: absolute;
-    top: 0;
     right: 0;
+    text-align: right;
+    top: 0;
     width: calc(33.333% - (1rem * 0.666));
   }
 `;
 
-const Points = styled.div`
-  list-style-position: inside;
-  padding: 0;
+const Points = styled.ul`
+  list-style-position: outside;
   margin: 0.5rem 0 0;
+  padding: 0;
+  padding-left: 1rem;
 
   @media (min-width: 960px), print {
     font-size: 0.75rem;

@@ -10,7 +10,7 @@ export const Grid = styled.div`
 `;
 
 export const GridItem = styled.div`
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 
   &:last-child {
     margin-bottom: 0;

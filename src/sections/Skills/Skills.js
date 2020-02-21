@@ -16,16 +16,16 @@ const Skills = () => (
       </GridItem>
       <GridItem>
         <SkillsList>
+          <Skill>Test-Driven Development</Skill>
           <Skill>Continuous Deployment</Skill>
           <Skill>Asynchronous Collaboration</Skill>
-          <Skill>Test-Driven Development</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
           <Skill>Compassion</Skill>
           <Skill>Listening</Skill>
-          <Skill>Inclusion</Skill>
+          <Skill>Respect</Skill>
         </SkillsList>
       </GridItem>
     </Grid>

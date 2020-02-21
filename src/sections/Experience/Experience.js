@@ -5,42 +5,40 @@ import Job from '../../components/Job';
 
 const Experience = () => (
   <Section title="Experience">
+    <Job title="Founder" company="Hearling" time="Nov 2019 to current">
+      <li>Designed, developed, and launched my first SaaS business.</li>
+      <li>Reached over 1,000 sign ups during the first month of service.</li>
+    </Job>
     <Job
       title="Software Engineer"
       company="Redbubble"
       time="Sep 2018 to July 2019">
-      <li>Maintained the sole ads distribution engine for the company.</li>
-      <li>Added automated ticket handling in Zendesk for certain consumer tickets.</li>
+      <li>Scaled ads distribution to 30+ more countries.</li>
       <li>
         Migrated product pages from a monolithic rails app to an Express and
         React micro service.
       </li>
     </Job>
     <Job
-      title="Full-Stack Software Engineer"
+      title="Software Engineer"
       company="Leapfin"
       time="Feb 2018 to July 2018">
-      <li>Self-managed my time and priorities while working at a startup.</li>
       <li>
-        Launched the effort to support full-time remote employees on the
-        Engineering team.
+        Launched the effort to support full-time remote employees in
+        Engineering.
       </li>
       <li>
         Introduced Agile XP practices such as pairing, retrospectives, and TDD.
       </li>
     </Job>
     <Job
-      title="Full-Stack Web Developer"
+      title="Boss Person"
       company="Self-Employed"
       time="Mar 2017 to Dec 2017">
-      <li>Scaled a personal web application to 20,000 daily users.</li>
+      <li>Redesigned and scaled soundoftext.com to 20k daily users.</li>
       <li>
         Partnered with local startups to fulfill their custom web development
         needs.
-      </li>
-      <li>
-        Managed personal time and business finances to run a sustainable
-        business.
       </li>
     </Job>
     <Job
