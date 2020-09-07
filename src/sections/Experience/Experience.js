@@ -5,7 +5,11 @@ import Job from '../../components/Job';
 
 const Experience = () => (
   <Section title="Experience">
-    <Job title="Founder" company="Hearling" time="Nov 2019 to current">
+    <Job title="Software Engineer, Senior" company="Evernote" time="Apr 2020 to present">
+      <li>Created a performant, consistent Editor experience across all Evernote clients.</li>
+      <li>Led the effort to integrate Google Drive into the new Evernote Editor.</li>
+    </Job>
+    <Job title="Founder" company="Hearling" time="Nov 2019 to present">
       <li>Designed, developed, and launched my first SaaS business.</li>
       <li>Reached over 1,000 sign ups during the first month of service.</li>
     </Job>
@@ -29,16 +33,6 @@ const Experience = () => (
       </li>
       <li>
         Introduced Agile XP practices such as pairing, retrospectives, and TDD.
-      </li>
-    </Job>
-    <Job
-      title="Boss Person"
-      company="Self-Employed"
-      time="Mar 2017 to Dec 2017">
-      <li>Redesigned and scaled soundoftext.com to 20k daily users.</li>
-      <li>
-        Partnered with local startups to fulfill their custom web development
-        needs.
       </li>
     </Job>
     <Job
