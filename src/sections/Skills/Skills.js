@@ -1,8 +1,8 @@
-import preact from 'preact';
-import styled from 'styled-components';
+import preact from "preact";
+import styled from "styled-components";
 
-import Section from '../../components/Section';
-import {Grid, GridItem} from '../../components/Grid';
+import Section from "../../components/Section";
+import { Grid, GridItem } from "../../components/Grid";
 
 const Skills = () => (
   <Section title="Skills">

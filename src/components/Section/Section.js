@@ -1,7 +1,7 @@
-import preact from 'preact';
-import styled from 'styled-components';
+import preact from "preact";
+import styled from "styled-components";
 
-const Section = ({children, title}) => (
+const Section = ({ children, title }) => (
   <StyledSection>
     <Header>
       <Title>{title}</Title>
@@ -33,7 +33,7 @@ const Header = styled.div`
 `;
 
 const Title = styled.h2`
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   margin: 0 0 0.5rem;

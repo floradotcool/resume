@@ -1,7 +1,7 @@
-import preact from 'preact';
-import styled from 'styled-components';
+import preact from "preact";
+import styled from "styled-components";
 
-const Project = ({title, link, href, children}) => (
+const Project = ({ title, link, href, children }) => (
   <div>
     <Title>{title}</Title>
     <Link href={href}>{link}</Link>
@@ -10,7 +10,7 @@ const Project = ({title, link, href, children}) => (
 );
 
 const Title = styled.h3`
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin: 0;
 

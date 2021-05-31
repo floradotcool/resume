@@ -1,7 +1,7 @@
-import preact from 'preact';
+import preact from "preact";
 
-import Section from '../../components/Section';
-import Job from '../../components/Job';
+import Section from "../../components/Section";
+import Job from "../../components/Job";
 
 const Education = () => (
   <Section title="Education">

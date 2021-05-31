@@ -1,13 +1,22 @@
-import preact from 'preact';
+import preact from "preact";
 
-import Section from '../../components/Section';
-import Job from '../../components/Job';
+import Section from "../../components/Section";
+import Job from "../../components/Job";
 
 const Experience = () => (
   <Section title="Experience">
-    <Job title="Software Engineer, Senior" company="Evernote" time="Apr 2020 to present">
-      <li>Created a performant, consistent Editor experience across all Evernote clients.</li>
-      <li>Led the effort to integrate Google Drive into the new Evernote Editor.</li>
+    <Job
+      title="Software Engineer, Senior"
+      company="Evernote"
+      time="Apr 2020 to present"
+    >
+      <li>
+        Created a performant, consistent Editor experience across all Evernote
+        clients.
+      </li>
+      <li>
+        Led the effort to integrate Google Drive into the new Evernote Editor.
+      </li>
     </Job>
     <Job title="Founder" company="Hearling" time="Nov 2019 to present">
       <li>Designed, developed, and launched my first SaaS business.</li>
@@ -16,7 +25,8 @@ const Experience = () => (
     <Job
       title="Software Engineer"
       company="Redbubble"
-      time="Sep 2018 to July 2019">
+      time="Sep 2018 to July 2019"
+    >
       <li>Scaled ads distribution to 30+ more countries.</li>
       <li>
         Migrated product pages from a monolithic rails app to an Express and
@@ -26,7 +36,8 @@ const Experience = () => (
     <Job
       title="Software Engineer"
       company="Leapfin"
-      time="Feb 2018 to July 2018">
+      time="Feb 2018 to July 2018"
+    >
       <li>
         Launched the effort to support full-time remote employees in
         Engineering.
@@ -38,7 +49,8 @@ const Experience = () => (
     <Job
       title="Software Engineer"
       company="Asynchrony Labs"
-      time="Aug 2015 to Feb 2017">
+      time="Aug 2015 to Feb 2017"
+    >
       <li>
         Built a Master Data Management solution using Scala, Play, Kafka, and
         Neo4j.

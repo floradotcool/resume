@@ -1,5 +1,5 @@
-import preact from 'preact';
-import styled from 'styled-components';
+import preact from "preact";
+import styled from "styled-components";
 
 export const Grid = styled.div`
   @media (min-width: 960px), print {

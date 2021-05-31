@@ -1,5 +1,5 @@
-import preact from 'preact';
-import styled from 'styled-components';
+import preact from "preact";
+import styled from "styled-components";
 
 const Header = () => (
   <StyledHeader>
@@ -27,7 +27,7 @@ const StyledHeader = styled.header`
 
 const Title = styled.h1`
   line-height: 1;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
   margin: 0 0 0.5rem;
