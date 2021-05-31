@@ -5,10 +5,14 @@ import Job from "../../components/Job";
 
 const Experience = () => (
   <Section title="Experience">
+    <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
+      <li>Designed, developed, and launched my first SaaS business.</li>
+      <li>Supports over 2,000 monthly active users.</li>
+    </Job>
     <Job
       title="Software Engineer, Senior"
       company="Evernote"
-      time="Apr 2020 to present"
+      time="Apr 2020 to Mar 2021"
     >
       <li>
         Created a performant, consistent Editor experience across all Evernote
@@ -17,10 +21,6 @@ const Experience = () => (
       <li>
         Led the effort to integrate Google Drive into the new Evernote Editor.
       </li>
-    </Job>
-    <Job title="Founder" company="Hearling" time="Nov 2019 to present">
-      <li>Designed, developed, and launched my first SaaS business.</li>
-      <li>Reached over 1,000 sign ups during the first month of service.</li>
     </Job>
     <Job
       title="Software Engineer"

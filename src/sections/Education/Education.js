@@ -7,7 +7,7 @@ const Education = () => (
   <Section title="Education">
     <Job
       title="B.S. in Computer Science"
-      company="University of Missouri, GPA 3.687"
+      company="University of Missouri"
       time="Fall 2012 to Spring 2015"
     />
   </Section>

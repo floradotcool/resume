@@ -32,14 +32,13 @@ const Projects = () => (
       </GridItem>
       <GridItem>
         <Project
-          title="My Blog"
-          link="blog.nick.exposed"
-          href="http://blog.nick.exposed"
+          title="scape.fashion"
+          link="scape.fashion"
+          href="https://scape.fashion"
         >
-          A blog about my thoughts, experiences, and opinions. I try to write a
-          post every Sunday. I will talk about topics like minimalism,
-          meditation, budgeting, veganism, and occasionally software
-          development.
+          A passion project for helping players of Old School Runescape to find
+          aesthetic outfits. Imports and scans thousands of in-game items for
+          their color palette and gives players outfit suggestions.
         </Project>
       </GridItem>
     </Grid>
