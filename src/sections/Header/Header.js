@@ -3,11 +3,13 @@ import styled from "styled-components";
 
 const Header = () => (
   <StyledHeader>
-    <Title>Nick Pierson</Title>
+    <Title>Flora Moon</Title>
     <Contacts>
-      <Contact>me@nick.exposed</Contact>
       <Contact>
-        <a href="https://nick.exposed">nick.exposed</a>
+        <a href="mailto:hello@flora.cool">hello@flora.cool</a>
+      </Contact>
+      <Contact>
+        <a href="https://flora.cool">flora.cool</a>
       </Contact>
     </Contacts>
   </StyledHeader>
