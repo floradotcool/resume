@@ -28,7 +28,7 @@ const Experience = () => (
       <li>Scaled ads distribution to 30+ more countries.</li>
       <li>
         Migrated product pages from a monolithic rails app to an Express and
-        React micro service.
+        React microservice.
       </li>
     </Job>
     <Job
