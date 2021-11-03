@@ -1,4 +1,3 @@
-import preact from "preact";
 import styled from "styled-components";
 
 const Section = ({ children, title }) => (

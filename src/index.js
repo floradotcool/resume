@@ -1,29 +1,10 @@
-import { h, Component } from "preact";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-import "./style.css";
-
-import Header from "./sections/Header";
-import Experience from "./sections/Experience";
-import Skills from "./sections/Skills";
-import Education from "./sections/Education";
-import Projects from "./sections/Projects";
-
-class Resume extends Component {
-  render() {
-    return (
-      <div id="resume">
-        <div class="paper">
-          <Header />
-          <main>
-            <Experience />
-            <Skills />
-            <Education />
-            <Projects />
-          </main>
-        </div>
-      </div>
-    );
-  }
-}
-
-export default Resume;
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);

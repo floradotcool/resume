@@ -1,4 +1,3 @@
-import preact from "preact";
 import styled from "styled-components";
 
 const Job = ({ company, title, time, children }) => {
@@ -9,7 +8,7 @@ const Job = ({ company, title, time, children }) => {
         <Company>{company}</Company>
         <Time>{time}</Time>
       </div>
-      {children.length > 0 && <Points>{children}</Points>}
+      {children && <Points>{children}</Points>}
     </StyledJob>
   );
 };

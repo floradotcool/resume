@@ -1,5 +1,3 @@
-import preact from "preact";
-
 import Section from "../../components/Section";
 import Job from "../../components/Job";
 

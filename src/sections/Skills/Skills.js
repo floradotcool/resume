@@ -1,4 +1,3 @@
-import preact from "preact";
 import styled from "styled-components";
 
 import Section from "../../components/Section";

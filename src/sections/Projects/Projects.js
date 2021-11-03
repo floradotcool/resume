@@ -1,5 +1,3 @@
-import preact from "preact";
-
 import Section from "../../components/Section";
 import { Grid, GridItem } from "../../components/Grid";
 import Project from "../../components/Project";

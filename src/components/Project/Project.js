@@ -1,4 +1,3 @@
-import preact from "preact";
 import styled from "styled-components";
 
 const Project = ({ title, link, href, children }) => (
