@@ -5,10 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "preact build",
-    "deploy": "./scripts/docker.sh deploy",
     "dev": "preact watch",
     "lint": "eslint src",
-    "postversion": "./scripts/postversion.sh",
     "prettier": "prettier -w \"**/*.js\"",
     "serve": "preact build && preact serve",
     "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev"
