@@ -3,9 +3,19 @@ import Job from "../../components/Job";
 
 const Experience = () => (
   <Section title="Experience">
+    <Job
+      title="Software Engineer, Senior"
+      company="HubSpot"
+      time="Jan 2022 to Oct 2023"
+    >
+      <li>Migrated the Marketplaces platform to a mobile-friendly layout.</li>
+      <li>
+        Worked in a cross-functional team to build custom marketplace filters.
+      </li>
+    </Job>
     <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
       <li>Designed, developed, and launched my first SaaS business.</li>
-      <li>Supports over 2,000 monthly active users.</li>
+      <li>Maintains over 2,000 monthly active users.</li>
     </Job>
     <Job
       title="Software Engineer, Senior"
