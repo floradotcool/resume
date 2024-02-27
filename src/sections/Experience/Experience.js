@@ -13,10 +13,6 @@ const Experience = () => (
         Worked in a cross-functional team to build custom marketplace filters.
       </li>
     </Job>
-    <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
-      <li>Designed, developed, and launched my first SaaS business.</li>
-      <li>Maintains over 2,000 monthly active users.</li>
-    </Job>
     <Job
       title="Software Engineer, Senior"
       company="Evernote"
@@ -29,6 +25,10 @@ const Experience = () => (
       <li>
         Led the effort to integrate Google Drive into the new Evernote Editor.
       </li>
+    </Job>
+    <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
+      <li>Designed, developed, and launched my first SaaS business.</li>
+      <li>Maintains over 2,000 monthly active users.</li>
     </Job>
     <Job
       title="Software Engineer"
