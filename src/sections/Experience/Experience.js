@@ -8,9 +8,13 @@ const Experience = () => (
       company="HubSpot"
       time="Jan 2022 to Oct 2023"
     >
-      <li>Migrated the Marketplaces platform to a mobile-friendly layout.</li>
       <li>
-        Worked in a cross-functional team to build custom marketplace filters.
+        Maintained and created new marketplaces using React, Redux, and
+        Typescript.
+      </li>
+      <li>
+        Migrated the Marketplaces Ecosystem codebase from JavaScript to
+        Typescript.
       </li>
     </Job>
     <Job
@@ -20,7 +24,7 @@ const Experience = () => (
     >
       <li>
         Created a performant, consistent Editor experience across all Evernote
-        clients.
+        clients using React, React Native, Redux, and ProseMirror.
       </li>
       <li>
         Led the effort to integrate Google Drive into the new Evernote Editor.
@@ -28,14 +32,16 @@ const Experience = () => (
     </Job>
     <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
       <li>Designed, developed, and launched my first SaaS business.</li>
-      <li>Maintains over 2,000 monthly active users.</li>
+      <li>Scaled performance to support over 2,000 monthly active users.</li>
     </Job>
     <Job
       title="Software Engineer"
       company="Redbubble"
       time="Sep 2018 to July 2019"
     >
-      <li>Scaled ads distribution to 30+ more countries.</li>
+      <li>
+        Scaled ads distribution to 30+ more countries using Ruby on Rails.
+      </li>
       <li>
         Migrated product pages from a monolithic rails app to an Express and
         React microservice.
