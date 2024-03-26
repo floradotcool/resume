@@ -9,7 +9,6 @@ const Project = ({ title, link, href, children }) => (
 );
 
 const Title = styled.h3`
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
   margin: 0;
 

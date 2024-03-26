@@ -6,7 +6,7 @@ const Education = () => (
     <Job
       title="B.S. in Computer Science"
       company="University of Missouri"
-      time="Fall 2012 to Spring 2015"
+      time="2012–2015"
     />
   </Section>
 );

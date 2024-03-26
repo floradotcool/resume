@@ -6,7 +6,7 @@ const Experience = () => (
     <Job
       title="Software Engineer, Senior"
       company="HubSpot"
-      time="Jan 2022 to Oct 2023"
+      time="Jan 2022–Oct 2023"
     >
       <li>
         Maintained and created new marketplaces using React, Redux, and
@@ -20,7 +20,7 @@ const Experience = () => (
     <Job
       title="Software Engineer, Senior"
       company="Evernote"
-      time="Apr 2020 to Mar 2021"
+      time="Apr 2020–Mar 2021"
     >
       <li>
         Created a performant, consistent Editor experience across all Evernote
@@ -30,14 +30,14 @@ const Experience = () => (
         Led the effort to integrate Google Drive into the new Evernote Editor.
       </li>
     </Job>
-    <Job title="Founder" company="hearling.com" time="Nov 2019 to present">
+    <Job title="Founder" company="hearling.com" time="Nov 2019–Present">
       <li>Designed, developed, and launched my first SaaS business.</li>
       <li>Scaled performance to support over 2,000 monthly active users.</li>
     </Job>
     <Job
       title="Software Engineer"
       company="Redbubble"
-      time="Sep 2018 to July 2019"
+      time="Sep 2018–July 2019"
     >
       <li>
         Scaled ads distribution to 30+ more countries using Ruby on Rails.
@@ -47,11 +47,7 @@ const Experience = () => (
         React microservice.
       </li>
     </Job>
-    <Job
-      title="Software Engineer"
-      company="Leapfin"
-      time="Feb 2018 to July 2018"
-    >
+    <Job title="Software Engineer" company="Leapfin" time="Feb 2018–July 2018">
       <li>
         Launched the effort to support full-time remote employees in
         Engineering.
@@ -63,7 +59,7 @@ const Experience = () => (
     <Job
       title="Software Engineer"
       company="Asynchrony Labs"
-      time="Aug 2015 to Feb 2017"
+      time="Aug 2015–Feb 2017"
     >
       <li>
         Built a Master Data Management solution using Scala, Play, Kafka, and

@@ -2,8 +2,14 @@ import styled from "styled-components";
 
 const Header = () => (
   <StyledHeader>
-    <Title>Flora Moon</Title>
+    <Name>
+      <Title>Flora Moon</Title>
+      <Location>Portland, OR</Location>
+    </Name>
     <Contacts>
+      <Contact>
+        <a href="tel:5736901154">(573) 690-1154</a>
+      </Contact>
       <Contact>
         <a href="mailto:hello@flora.cool">hello@flora.cool</a>
       </Contact>
@@ -26,17 +32,26 @@ const StyledHeader = styled.header`
   }
 `;
 
+const Name = styled.section``;
+
 const Title = styled.h1`
   line-height: 1;
-  font-family: "Nunito", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
-  margin: 0 0 0.5rem;
+  margin: 0;
 
   @media (min-width: 960px), print {
     font-size: 3rem;
     margin: 0;
-    width: calc(66.666% - (1rem * 0.333));
+  }
+`;
+
+const Location = styled.div`
+  margin-bottom: 0.5rem;
+  display: block;
+
+  @media (min-width: 960px), print {
+    margin: 0;
   }
 `;
 
@@ -47,7 +62,7 @@ const Contacts = styled.ul`
 
   @media (min-width: 960px), print {
     bottom: 0.25rem;
-    font-size: 0.75rem;
+    font-size: 0.875rem;
     position: relative;
     text-align: right;
   }

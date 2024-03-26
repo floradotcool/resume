@@ -15,16 +15,16 @@ const Skills = () => (
       </GridItem>
       <GridItem>
         <SkillsList>
-          <Skill>Nonviolent Communication</Skill>
-          <Skill>Inclusive Language</Skill>
-          <Skill>Mentorship / Hiring</Skill>
+          <Skill>Webpack / Babel</Skill>
+          <Skill>Sentry / Datadog</Skill>
+          <Skill>Git / Bash / CLI</Skill>
         </SkillsList>
       </GridItem>
       <GridItem>
         <SkillsList>
-          <Skill>Test-Driven Development</Skill>
-          <Skill>Continuous Deployment</Skill>
-          <Skill>Remote Collaboration</Skill>
+          <Skill>Python / Django</Skill>
+          <Skill>Ruby / Rails</Skill>
+          <Skill>Java / Scala</Skill>
         </SkillsList>
       </GridItem>
     </Grid>
