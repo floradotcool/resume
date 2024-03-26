@@ -9,12 +9,11 @@ const Experience = () => (
       time="Jan 2022–Oct 2023"
     >
       <li>
-        Maintained and created new marketplaces using React, Redux, and
+        Designed and built a new developer marketplace using React, Redux, and
         Typescript.
       </li>
       <li>
-        Migrated the Marketplaces Ecosystem codebase from JavaScript to
-        Typescript.
+        Migrated the legacy marketplace codebase from JavaScript to Typescript.
       </li>
     </Job>
     <Job
@@ -27,7 +26,8 @@ const Experience = () => (
         clients using React, React Native, Redux, and ProseMirror.
       </li>
       <li>
-        Led the effort to integrate Google Drive into the new Evernote Editor.
+        Built the integration to support Google Drive in the new Evernote
+        editor.
       </li>
     </Job>
     <Job title="Founder" company="hearling.com" time="Nov 2019–Present">
