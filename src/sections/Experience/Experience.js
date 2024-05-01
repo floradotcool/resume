@@ -4,7 +4,7 @@ import Job from "../../components/Job";
 const Experience = () => (
   <Section title="Experience">
     <Job
-      title="Software Engineer, Senior"
+      title="Senior Software Engineer"
       company="HubSpot"
       time="Jan 2022–Oct 2023"
     >
@@ -17,7 +17,7 @@ const Experience = () => (
       </li>
     </Job>
     <Job
-      title="Software Engineer, Senior"
+      title="Senior Software Engineer"
       company="Evernote"
       time="Apr 2020–Mar 2021"
     >
